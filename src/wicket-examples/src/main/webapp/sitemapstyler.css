@@ -1,0 +1,63 @@
+/*
+        Sitemap Styler 	 
+*/
+
+#expsitemap, #expsitemap ul, #expsitemap li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#expsitemap{background:url(images/line1.gif) repeat-y;}
+#expsitemap li{
+    line-height:20px;
+    margin-top:1px;
+    position:relative;
+    width:100%;
+}
+/* IE leaves a blank space where span is added so this is to avoid that */
+* html #expsitemap li{
+    float:left;
+    display:inline;
+}
+
+#expsitemap li.expcatgeneral{
+    font-weight: bolder;
+}
+
+#expsitemap li{padding-left:25px;}
+#expsitemap li span{float:left;position:absolute;top:5px;left:5px;width:13px;height:13px;cursor:auto;font-size:0;}
+#expsitemap li span, #expsitemap li span.collapsed{background:url(images/collapsed.gif) no-repeat 0 0;} 
+#expsitemap li span.expanded{background:url(images/expanded.gif) no-repeat 0 0;}
+
+/* sub levels */
+
+#expsitemap li ul{	
+    font-weight: normal;
+    color:#000;
+    margin-left:10px;
+    background:url(images/line1.gif) repeat-y;
+}
+#expsitemap li li{	
+    background:url(images/line2.gif) no-repeat 0 0;
+}
+#expsitemap li.expactive{
+    font-weight: bold;
+}
+
+/* etc. */
+
+/* float fix */
+
+#expsitemap:after, #expsitemap ul:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+#expsitemap, #expsitemap ul{display:block;}
+/*  \*/
+#expsitemap, #expsitemap ul{min-height:1%;}
+* html #expsitemap, * html #expsitemap ul{height:1%;}
+/*  */
+#expsitemap ul{display:none;}

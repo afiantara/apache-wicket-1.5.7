@@ -1,0 +1,199 @@
+/* 
+;@name			EXP Templates 1.0
+;@package		Joomla 1.6/1.7/2.5
+;@author		EXP TEAM::Alexey Kurguz (Grusha)
+;@copyright		Copyright (C) 2005 - 2012  EXP TEAM::Alexey Kurguz (Grusha)
+;@link			http://www.feellove.eu
+;@license		Commercial License
+*/
+
+
+
+/* EXP Templates */
+.display-limit .inputbox {
+    width: 80px;
+}
+
+#exptemplates .pagination {
+    padding: 0 0 15px 0;
+}
+
+#exptemplates .expdef_module ul.thumbnails{
+    margin: 0 auto;
+}
+
+#exptemplates .expdef_module{
+    margin: 0 auto 10px auto;
+}
+
+.pagenav {
+  margin-left: 0;
+  margin-bottom: 18px;
+  list-style: none;
+  text-align: center;
+  *zoom: 1;
+}
+.pagenav:before,
+.pagenav:after {
+  display: table;
+  content: "";
+}
+.pagenav:after {
+  clear: both;
+}
+.pagenav li {
+  display: inline;
+}
+.pagenav a {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.pagenav a:hover {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.pagenav .next a {
+  float: right;
+}
+.pagenav .previous a {
+  float: left;
+}
+.pagenav .disabled a,
+.pagenav .disabled a:hover {
+  color: #999999;
+  background-color: #fff;
+  cursor: default;
+}
+
+
+#system-message ul{
+    background: none;
+    background-image: none;
+}
+
+#system-message{
+}
+.alert-heading {
+  color: inherit;
+}
+#system-message .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 18px;
+}
+/*
+#system-message .reset-confirm p {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fbeed5;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#system-message .error{
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fbeed5;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#system-message .notice {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fbeed5;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#system-message .notice li{
+  color: #3a87ad;
+}
+*/
+
+#system-message-container #system-message {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 1px solid #fbeed5;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#system-message-container #system-message .message,#system-message-container #system-message ul{
+    margin: 0;
+    padding: 0;
+}
+
+.alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.alert-block > p,
+.alert-block > ul {
+  margin-bottom: 0;
+}
+.alert-block p + p {
+  margin-top: 5px;
+}
+
+.tip {
+  padding: 4px 10px 4px;
+  font-size: 13px;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  border: 1px solid #cccccc;
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  *margin-left: .3em;
+}
+
+/**** Fixed Google Maps ****/
+
+img[src^="http://maps.gstatic.com/"] {
+    max-width: none;
+}
